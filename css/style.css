@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.flex-container {
+.flex-container1 {
     display: flex;
 }
 
@@ -19,8 +19,8 @@
     display: flex;
 }
 
-.square1 {
-    border: 1px dashed black;
+.rectangle1 {
+    border: 2px dashed black;
     width: 150px;
     height: 30px;
     background-color: goldenrod;
@@ -28,8 +28,8 @@
     padding: 5px;
 }
 
-.square2 {
-    border: 1px dashed black;
+.rectangle2 {
+    border: 2px dashed black;
     width: 500px;
     height: 30px;
     background-color: goldenrod;
@@ -39,17 +39,34 @@
     padding: 5px;
 }
 
-.square2 a,
-.square3 a {
+.rectangle2 a,
+.rectangle3 a {
     text-decoration: none;
     color: black;
 }
 
-.square3 {
-    border: 1px dashed black;
+.rectangle3 {
+    border: 2px dashed black;
     width: 150px;
     height: 30px;
     background-color: goldenrod;
     text-align: right;
     padding: 5px;
+}
+
+.background-square2 {
+    background-color: rgb(5, 5, 133);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.square {
+    width: 650px;
+    height: 300px;
+    background-color: rgb(207, 141, 164);
+    border: 2px dashed black;
 }
